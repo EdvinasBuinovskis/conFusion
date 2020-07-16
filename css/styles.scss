@@ -69,8 +69,27 @@ body{
     }
 }
 
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
 #carouselButton {
     right: 0px;
     position: absolute;
     bottom: 0px;
 }
+ 
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;       
+    .close {
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
